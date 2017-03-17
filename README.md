@@ -22,6 +22,27 @@ aa.delay(callback, ms, ...args); // call callback in x ms with ...args
 aa.whenStabilised().then((s) => { ... }).catch((e) => { ... })
 ```
 
+
+Parent forwarding : 
+```javascript
+import AsyncAggregator from 'async-aggregator';
+
+const parent = new AsyncAggregator();
+const child = new AsyncAggregator(parent);
+
+const p = Promise.resolve(true);
+
+child.waiting(p);
+
+child.delay(callback, ms, ...args); // call callback in x ms with ...args 
+
+...
+
+parent.whenStabilised().then((s) => { ... }).catch((e) => { ... })
+```
+
+
+
 ## Licence
 
 The [MIT](http://opensource.org/licenses/MIT) License
