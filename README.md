@@ -1,5 +1,12 @@
 # async-aggregator
 
+[![Travis branch](https://img.shields.io/travis/nomocas/async-aggregator/master.svg)](https://travis-ci.org/nomocas/async-aggregator)
+[![npm](https://img.shields.io/npm/v/async-aggregator.svg)]()
+[![npm-downloads](https://img.shields.io/npm/dm/async-aggregator.svg)]()
+[![licence](https://img.shields.io/npm/l/async-aggregator.svg)](https://spdx.org/licenses/MIT)
+[![dependecies](https://img.shields.io/david/nomocas/async-aggregator.svg)]()
+[![dev-dependencies](https://img.shields.io/david/dev/nomocas/async-aggregator.svg)]()
+
 Asynchroneous "events" aggregator (e.g. promise and setTimeout calls).
 
 Useful to centralised things to wait for...
