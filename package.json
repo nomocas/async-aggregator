@@ -1,6 +1,6 @@
 {
   "name": "async-aggregator",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Async events (promises and setTimeout) collector",
   "main": "dist/bundles/index.js",
   "module": "dist/bundles/index.mjs",
