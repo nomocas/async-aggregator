@@ -1,5 +1,5 @@
 {
-  "name": "async-collector",
+  "name": "async-aggregator",
   "version": "0.0.3",
   "description": "Async events (promises and setTimeout) collector",
   "main": "dist/bundles/index.js",
