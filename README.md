@@ -1,11 +1,12 @@
 # async-aggregator
 
 [![Travis branch](https://img.shields.io/travis/nomocas/async-aggregator/master.svg)](https://travis-ci.org/nomocas/async-aggregator)
-[![npm](https://img.shields.io/npm/v/async-aggregator.svg)]()
+[![bitHound Overall Score](https://www.bithound.io/github/nomocas/async-aggregator/badges/score.svg)](https://www.bithound.io/github/nomocas/async-aggregator)
 [![npm-downloads](https://img.shields.io/npm/dm/async-aggregator.svg)]()
-[![licence](https://img.shields.io/npm/l/async-aggregator.svg)](https://spdx.org/licenses/MIT)
 [![dependecies](https://img.shields.io/david/nomocas/async-aggregator.svg)]()
-[![dev-dependencies](https://img.shields.io/david/dev/nomocas/async-aggregator.svg)]()
+[![bitHound Dev Dependencies](https://www.bithound.io/github/nomocas/async-aggregator/badges/devDependencies.svg)](https://www.bithound.io/github/nomocas/async-aggregator/master/dependencies/npm)
+[![npm](https://img.shields.io/npm/v/async-aggregator.svg)]()
+[![licence](https://img.shields.io/npm/l/async-aggregator.svg)](https://spdx.org/licenses/MIT)
 
 Asynchroneous "events" aggregator (e.g. promise and setTimeout calls).
 
