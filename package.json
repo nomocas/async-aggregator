@@ -31,9 +31,7 @@
   ],
   "author": "Gilles Coomans",
   "license": "MIT",
-  "dependencies": {
-    "event-emitter-es6": "^1.1.5"
-  },
+  "dependencies": {},
   "devDependencies": {
     "assert": "^1.4.1",
     "babel-cli": "^6.14.0",
